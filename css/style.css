@@ -169,3 +169,81 @@ input.input::placeholder {
   margin-left: 123px;
   margin-top: 16px;
 }
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    width: 480px;
+    height: 1675px;
+    background-size: cover;
+    background-position: 79% 50%;
+  }
+
+  .texts {
+    margin-right: auto;
+    margin-left: 70px;
+    background: url(/img/tube.svg) no-repeat bottom -400px center;
+  }
+
+  .logo {
+    display: flex;
+    width: 200px;
+    margin-top: 24px;
+    margin-left: 40px;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    width: 240px;
+    text-align: center;
+  }
+
+  .features {
+    width: 270px;
+  }
+  .feature {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .forms {
+    margin-top: 462px;
+    max-width: 320px;
+    margin-left: 45px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 32px;
+    margin-left: 12px;
+    margin-bottom: 50px;
+  }
+
+  .price {
+    font-size: 22px;
+    line-height: 110%;
+  }
+  .number {
+    font-size: 38px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .inputs {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .button {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .special {
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 100px;
+  }
+}
