@@ -1,0 +1,111 @@
+* {
+  font-family: Inter;
+}
+
+.container {
+  background: url(../img/bg.jpg) no-repeat;
+  display: flex;
+
+  width: 1920px;
+  height: 712px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  background: url(/img/tube.svg) no-repeat bottom 78px right;
+  border: 1px solid red;
+  margin-left: 392px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: #118976;
+  text-shadow: 2px 2px 0px #ffffff;
+  width: 644px;
+  margin-top: 30px;
+}
+.logo {
+  margin-right: auto;
+  margin-top: 8px;
+}
+
+.features {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  max-width: 357px;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.feature {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #333333;
+  margin-left: 20px;
+}
+
+.forms {
+  width: 368px;
+  height: 553px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  margin-top: 107px;
+  margin-bottom: 44px;
+  margin-left: 124px;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer {
+  width: 278px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  display: inline-block;
+  width: 304px;
+  margin-left: 32px;
+  text-align: center;
+}
+
+.price {
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 110%;
+  text-align: center;
+  color: #ff2c2c;
+  border: 1px solid green;
+  margin-top: -10px;
+}
+
+.number {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  color: #ff2c2c;
+}
