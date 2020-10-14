@@ -13,7 +13,7 @@
 .texts {
   display: flex;
   flex-direction: column;
-  background: url(/img/tube.svg) no-repeat bottom 78px right;
+  background: url(../img/tube.svg) no-repeat bottom 78px right;
   margin-left: 392px;
 }
 
